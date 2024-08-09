@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "564764828093",
+    "project_id": "pixelgenie-78323",
+    "storage_bucket": "pixelgenie-78323.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564764828093:android:82bad9997a3a11e834f2d4",
+        "android_client_info": {
+          "package_name": "com.example.pixelgenie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564764828093-oc7r5ti3psk5c56oaqq4rt5uuel6c157.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbxXQT_i-0URDpi4FY25V9x_0u92C2B0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564764828093-oc7r5ti3psk5c56oaqq4rt5uuel6c157.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "564764828093-97dqpqf9v8a98fev5vhm7es02cs2t04i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pixelgenie"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564764828093:android:cc6d3b117b0206c434f2d4",
+        "android_client_info": {
+          "package_name": "com.pixelgenie.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564764828093-m24grm7qfckc50qh2pkufs1f8365vfp9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pixelgenie.app",
+            "certificate_hash": "5c113c386afb31db91756711b9d3ed35ebcb91a1"
+          }
+        },
+        {
+          "client_id": "564764828093-oc7r5ti3psk5c56oaqq4rt5uuel6c157.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbxXQT_i-0URDpi4FY25V9x_0u92C2B0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564764828093-oc7r5ti3psk5c56oaqq4rt5uuel6c157.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "564764828093-97dqpqf9v8a98fev5vhm7es02cs2t04i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pixelgenie"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
