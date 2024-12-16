@@ -50,11 +50,11 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAbxXQT_i-0URDpi4FY25V9x_0u92C2B0M',
-    appId: '1:564764828093:android:82bad9997a3a11e834f2d4',
-    messagingSenderId: '564764828093',
-    projectId: 'pixelgenie-78323',
-    storageBucket: 'pixelgenie-78323.appspot.com',
+    apiKey: 'AIzaSyCV869CPasISXIB-S0CnMUyvSnNwdmPJ24',
+    appId: '1:85870708315:android:0ae670ca9e81158766617e',
+    messagingSenderId: '85870708315',
+    projectId: 'travelmeet-e8a80',
+    storageBucket: 'travelmeet-e8a80.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(

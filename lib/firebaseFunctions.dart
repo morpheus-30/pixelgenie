@@ -32,13 +32,13 @@ Future<void> signInWithGoogle() async {
         'name': user.displayName,
         'email': user.email,
         'currentStickers': [],
-        'last_sticker_timestamp':""
+        'last_sticker_timestamp': ""
       });
     }
 
     // Use the user object for further operations or navigate to a new screen.
   } catch (e) {
-    print(e.toString());
+    print("ERRORRR:" + e.toString());
   }
 }
 
@@ -60,12 +60,14 @@ Future updateUserCurrentStickers(List<List<String>> stickers) async {
   await FirebaseFirestore.instance
       .collection('users')
       .doc(FirebaseAuth.instance.currentUser!.uid)
-      .collection("currentStickers").get().then((QuerySnapshot querySnapshot) {
-        for(DocumentSnapshot documentSnapshot in querySnapshot.docs){
-          documentSnapshot.reference.delete();
-        }
-      });
-      
+      .collection("currentStickers")
+      .get()
+      .then((QuerySnapshot querySnapshot) {
+    for (DocumentSnapshot documentSnapshot in querySnapshot.docs) {
+      documentSnapshot.reference.delete();
+    }
+  });
+
   for (int i = 0; i < stickers.length; i++) {
     await FirebaseFirestore.instance
         .collection('users')

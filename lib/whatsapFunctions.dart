@@ -49,7 +49,7 @@ Future installFromRemote(List<List<String>> stickers) async {
     // print("https://storage.googleapis.com/pixelgenie-78323.appspot.com/stickers/${FirebaseAuth.instance.currentUser!.uid}/${a[0]}");
     downloads.add(
       dio.download(
-        'https://storage.googleapis.com/pixelgenie-78323.appspot.com/stickers/${FirebaseAuth.instance.currentUser!.uid}/${a[0]}',
+        'https://storage.googleapis.com/travelmeet-e8a80.firebasestorage.app/stickers/${FirebaseAuth.instance.currentUser!.uid}/${a[0]}',
         '${ssDir.path}/${a[0]}',
       ),
     );
